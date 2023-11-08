@@ -24,7 +24,7 @@
     <groupId>org.wso2.carbon.coordination</groupId>
     <artifactId>carbon-coordination</artifactId>
     <packaging>pom</packaging>
-    <version>2.1.9.3-SNAPSHOT</version>
+    <version>2.1.9.3</version>
     <name>WSO2 Carbon Coordination - Parent</name>
 
     <modules>
@@ -37,7 +37,7 @@
         <developerConnection>scm:git:https://github.com/wso2-support/carbon-coordination.git</developerConnection>
         <connection>scm:git:https://github.com/wso2-support/carbon-coordination.git</connection>
         
-      <tag>HEAD</tag>
+      <tag>v2.1.9.3</tag>
   </scm>
 
     <build>
@@ -303,7 +303,7 @@
     </dependencyManagement>
 
     <properties>
-        <carbon.coordination.version>2.1.9.3-SNAPSHOT</carbon.coordination.version>
+        <carbon.coordination.version>2.1.9.3</carbon.coordination.version>
         <carbon.coordination.exp.package.version>${carbon.coordination.version}
         </carbon.coordination.exp.package.version>
         <carbon.analytics-common.version>6.1.42</carbon.analytics-common.version>
